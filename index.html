@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Students Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background: #2b59ff;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #1f3ed6;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background: #2b59ff;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .btn {
+      display: inline-block;
+      background: #2b59ff;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Students Hub</h1>
+  <p>A place where students learn, share, and grow together</p>
+  <a href="#contact" class="btn">Get Help</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#mentors">Mentors</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Students Hub</h2>
+  <p>
+    Students Hub is a community platform where college students get guidance from
+    seniors and teachers to improve skills, clear doubts, and build better careers.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills We Support</h2>
+  <div class="cards">
+    <div class="card">💻 Coding & Programming</div>
+    <div class="card">📚 Subject Doubts</div>
+    <div class="card">🎯 Career Guidance</div>
+    <div class="card">🛠️ Project Help</div>
+  </div>
+</section>
+
+<section id="mentors">
+  <h2>Our Mentors</h2>
+  <p>
+    Our mentors are experienced seniors and teachers who volunteer to guide students
+    and help them grow academically and professionally.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Get in Touch</h2>
+  <p>
+    Need help? Want to become a mentor?  
+    Email us at: <b>studentshub@example.com</b>
+  </p>
+  <a href="mailto:studentshub@example.com" class="btn">Email Us</a>
+</section>
+
+<footer>
+  <p>© 2025 Students Hub | Built with ❤️ for students</p>
+</footer>
+
+</body>
+</html>
